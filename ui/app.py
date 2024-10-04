@@ -8,7 +8,7 @@ from requests.exceptions import JSONDecodeError
 
 
 class BookStreamlitApp:
-    URL = "http://172.17.0.1:5600/query"
+    URL = "http://api:5600/query"
 
     def __init__(self):
         self.build_app()
