@@ -6,6 +6,6 @@ services:
       - OPENAI_API_KEY=${OPENAI_API_KEY}
 
   streamlit:
-    image: "johnb340/moby-dick-streamlit:v1"
+    image: "johnb340/moby-dick-streamlit:v3"
     ports:
       - "8501:8501"
