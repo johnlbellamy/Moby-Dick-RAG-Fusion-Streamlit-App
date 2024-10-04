@@ -1,0 +1,12 @@
+services:
+  api:
+    image: "johnb340/moby-dick-rag-fusion:v1"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    ports:
+      - "5600:5600"
+
+  streamlit:
+    image: "johnb340/moby-dick-streamlit:v1"
+    ports:
+      - "8501:8501"

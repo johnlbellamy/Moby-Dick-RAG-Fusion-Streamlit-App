@@ -1,0 +1,10 @@
+langchain_community
+tiktoken
+langchain-openai
+langchainhub
+chromadb
+langchain
+bs4
+python-dotenv
+faiss-cpu
+Flask
